@@ -1,0 +1,6 @@
+[submodule "dbms-backend"]
+	path = dbms-backend
+	url = git@github.com:dineshdb/dbms-backend.git
+[submodule "dbms-frontend"]
+	path = dbms-frontend
+	url = git@github.com:dineshdb/dbms-frontend.git
