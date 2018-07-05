@@ -34,7 +34,7 @@ mysql> grant all on dbms_project.* to 'dbms_project'@'localhost'; -- Gives all t
 * ``cd`` into frontend.
 * install all dependencies ``npm install``
 * build the repo ``npm run build``.
-* collect the static artifacts and deploy into a static server using
+* collect the static artifacts and deploy into a static server using apache or nginx.
 
 
 ## Authors
