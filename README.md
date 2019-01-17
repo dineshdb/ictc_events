@@ -10,6 +10,11 @@ Online web based ICTC events database.
 * deploy frontend
 * To sync new updates ``git pull --recurse-submodules``.
 
+### Tools required
+* Browsers and their developers tools
+* Postman for managing and testing REST APIs
+* node/npm, reactjs, etc
+
 ### Build Backend
 * ``cd`` into backend
 * Build using ``./gradlew build``
@@ -34,6 +39,7 @@ mysql> grant all on dbms_project.* to 'dbms_project'@'localhost'; -- Gives all t
 * ``cd`` into frontend.
 * install all dependencies ``npm install``
 * build the repo ``npm run build``.
+* `use `npm run start` during development. It uses live reloading developement environment.
 * collect the static artifacts and deploy into a static server using apache or nginx.
 
 
